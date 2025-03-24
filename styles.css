@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ff69b4;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.seccion {
+    margin-bottom: 40px;
+    background: #ffe4e1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff1493;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff69b4;
+}
+
+footer {
+    background-color: #ff1493;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
